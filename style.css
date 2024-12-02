@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#spillområde {
+    width: 800px;
+    height: 600px;
+    background-color: lightblue;
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto;
+    border: 2px solid #000;
+}
+
+#spiller {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 375px;
+}
+
+#ball {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
