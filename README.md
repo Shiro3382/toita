@@ -7,6 +7,6 @@ Forklaring
 HTML-delen (index.html) definerer spillområdet, spilleren, og ballen.
 CSS-delen (style.css) gir stil og plassering for de ulike elementene i spillet.
 
-JavaScript-delen (script.js) håndterer spilllogikken:
+JavaScript-delen (script.js) håndterer spill logikken:
 Spilleren kan bevege seg til venstre og høyre ved hjelp av piltastene.
 Ballen faller nedover, og hvis spilleren klarer å fange ballen, økes hastigheten.
